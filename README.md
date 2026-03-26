@@ -1,2 +1,88 @@
-# image-steganography
-GUI-based Image Steganography Application using Python
+# 🔐 Image Steganography Application
+
+A GUI-based Image Steganography application developed using Python. This tool allows users to hide and extract images using the Least Significant Bit (LSB) technique.
+
+---
+
+## 📌 Features
+
+- User-friendly GUI (Tkinter)
+- Upload images at runtime
+- Encode (hide) secret image inside cover image
+- Decode hidden image from encoded image
+- Image preview panels
+- Modern dark-themed interface
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- OpenCV
+- NumPy
+- Tkinter
+- PIL (Pillow)
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+
+git clone https://github.com/RameenRoshni/image-steganography.git
+
+
+2. Navigate to folder:
+
+cd image-steganography
+
+
+3. Run the application:
+
+python steganography_app_gui.py
+
+
+---
+
+## 📸 Application Screenshots
+
+### Main Interface
+![App UI](images/cover.png)
+
+### Encoding Process
+![Encoded](images/encoded.png)
+
+### Decoding Process
+![Decoded](images/decoded.png)
+
+---
+
+## 🧠 Working Principle
+
+This application uses the **Least Significant Bit (LSB)** technique:
+
+- During encoding:
+  - The least significant bits of the cover image are replaced with bits from the secret image.
+  
+- During decoding:
+  - These bits are extracted to reconstruct the hidden image.
+
+---
+
+## 📂 Project Files
+
+- `steganography_app_gui.py` → Main application
+- `DIP_Assignment01.ipynb` → Assignment notebook
+- `images/` → Sample input and output images
+
+---
+
+## 👩‍💻 Author
+
+Rameen Roshni
+
+---
+
+## 📎 GitHub Link
+
+https://github.com/yourusername/image-steganography
