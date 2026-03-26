@@ -35,17 +35,6 @@ cd image-steganography
 
 python steganography_app_gui.py
 
-## Application Screenshots
-
-### Main Interface
-![App UI](images/cover.png)
-
-### Encoding Process
-![Encoded](images/encoded.png)
-
-### Decoding Process
-![Decoded](images/decoded.png)
-
 ## Working Principle
 
 This application uses the **Least Significant Bit (LSB)** technique:
@@ -56,11 +45,6 @@ This application uses the **Least Significant Bit (LSB)** technique:
 - During decoding:
   - These bits are extracted to reconstruct the hidden image.
 
-## Project Files
-
-- `steganography_app_gui.py` → Main application
-- `DIP_Assignment01.ipynb` → Assignment notebook
-- `images/` → Sample input and output images
 
 ## Author
 
